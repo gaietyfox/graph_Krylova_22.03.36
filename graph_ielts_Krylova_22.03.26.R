@@ -18,7 +18,7 @@ library(tidyr)
 library(stringr)
 
 
-corpus <- read_csv("corpus_parsed_clean.csv", show_col_types = FALSE", show_col_types = FALSE)
+corpus <- read_csv("corpus_parsed_clean.csv", show_col_types = FALSE)
 
 
 # Преобразуем леммы в длинный формат, где
